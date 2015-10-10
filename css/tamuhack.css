@@ -3,12 +3,14 @@
 	top: 50%;
   	left: 50%;
   	margin-top: -50px;
- 
+  	background-color: #EAEAEA;
+  	word-wrap: break-word;
+  	display: inline-block;
+ 	vertical-align: middle;
 }
 
-input[type=text] {
-    padding: 0;
-    height: 30px;
+#textbox {
+	padding: 0;
     position: fixed;
   	left: 50%;
     outline: none;
@@ -17,10 +19,7 @@ input[type=text] {
     background-color: white;
     font-size: 16px;
 	top: 50%;
-}
-
-
-#textbox {
 	width: 500px;
+	color: #bdc3c7;
 }
 
